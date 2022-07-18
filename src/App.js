@@ -40,404 +40,404 @@ class Zam extends React.Component{
 
         <div className='menu'>
           <div className='section'>
-            <h2>Przystawki</h2>
-            <button onClick={cena_zmiana} className="btn" value='6'>
+            <h3>Przystawki</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='6'>
             PAPADUM 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='12'>
+            <button onClick={cena_zmiana} className="btn gray" value='12'>
             VEGETABLE SAMOSA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             CHICKEN SAMOSA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='20'>
+            <button onClick={cena_zmiana} className="btn gray" value='20'>
             CHICKEN TIKKA 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='12'>
+            <button onClick={cena_zmiana} className="btn gray" value='12'>
             CUTLET 
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Soup</h2>
-            <button onClick={cena_zmiana} className="btn" value='14'>
+            <h3>Soup</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='14'>
             VEGETABLE SOUP 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             DAL SOUP
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MUSHROOM PALAK SOUP
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             CHICKEN SOUP
             </button>
           </div>
           <div className='section'>
-            <h2>TANDOORI SPECIALITIES</h2>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <h3>TANDOORI SPECIALITIES</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             TANDOORI CHICKEN 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             MALAI CHICKEN TIKKA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             HARYALI CHICKEN TIKKA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             ACHARI CHICKEN TIKKA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='35'>
+            <button onClick={cena_zmiana} className="btn gray" value='35'>
             PRAWNS TIKKA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='35'>
+            <button onClick={cena_zmiana} className="btn gray" value='35'>
             FISH TIKKA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             PANEER TIKKA 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='40'>
+            <button onClick={cena_zmiana} className="btn gray" value='40'>
             TANDOORI FLAME SPECIAL
             </button>
           </div>
           <div className='section'>
-            <h2>DANIA WEGETARIAŃSKIE</h2>
-            <button onClick={cena_zmiana} className="btn" value='27'>
+            <h3>DANIA WEGETARIAŃSKIE</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='27'>
             MIX VEGETABLE CURRY
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             MADRAS VEGETABLE
             </button>
-            <button onClick={cena_zmiana} className="btn" value='28'>
+            <button onClick={cena_zmiana} className="btn gray" value='28'>
             KADHAI VEGETABLE 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             DAL 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='27'>
+            <button onClick={cena_zmiana} className="btn gray" value='27'>
             DAL PALAK 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='27'>
+            <button onClick={cena_zmiana} className="btn gray" value='27'>
             DAL MAKHANI 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             PALAK  
             </button>
-            <button onClick={cena_zmiana} className="btn" value='27'>
+            <button onClick={cena_zmiana} className="btn gray" value='27'>
             SAG ALOO
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             JEERA ALOO 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='27'>
+            <button onClick={cena_zmiana} className="btn gray" value='27'>
             ALOO GOBI 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             BAINGAN BHARTA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='28'>
+            <button onClick={cena_zmiana} className="btn gray" value='28'>
             CHANA MASALA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='27'>
+            <button onClick={cena_zmiana} className="btn gray" value='27'>
             NAVRATAN KORMA 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='40'>
+            <button onClick={cena_zmiana} className="btn gray" value='40'>
             KAJU MASALA 
             </button>
-            <button onClick={cena_zmiana} className="btn" value='38'>
+            <button onClick={cena_zmiana} className="btn gray" value='38'>
             TANDOORI FLAME VEGETARIAN 
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
           <div className='section'>
-            <h2>Pokora</h2>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <h3>Pokora</h3>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='15'>
+            <button onClick={cena_zmiana} className="btn gray" value='15'>
             MIX VEGETABLE PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             PANEER PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='18'>
+            <button onClick={cena_zmiana} className="btn gray" value='18'>
             CHICKEN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='30'>
+            <button onClick={cena_zmiana} className="btn gray" value='30'>
             PRAWN PAKORA
             </button>
-            <button onClick={cena_zmiana} className="btn" value='25'>
+            <button onClick={cena_zmiana} className="btn gray" value='25'>
             FISH PAKORA
             </button>
           </div>
