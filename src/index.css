@@ -13,11 +13,19 @@ body {
 .gray{
   background-color: lightgray;
 }
+.red{
+  background-color: red;
+}
+.yellow{
+  background-color: yellow;
+}
+
 .btn{
   border: 1px black solid;
   border-radius: 5px;
   width: auto;
   height: 3em;
+  margin: 2px;
 }
 .menu{
   display: flex;
@@ -25,4 +33,6 @@ body {
 }
 .section{
   margin: 10px;
+  display: flex;
+  flex-direction: column;
 }
