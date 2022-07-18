@@ -36,29 +36,48 @@ class Zam extends React.Component{
   }
     return(
       <div>
-        CENA: {this.state.cena}
-
+        <h1>CENA: {this.state.cena}</h1>
+        <ul id="st">
+          <a href='#1'><li>Przystawki</li></a>
+          <a href='#2'><li>pokora</li></a>
+          <a href='#3'><li>soup</li></a>
+          <a href='#4'><li>TANDOORI SPECIALITIES</li></a>
+          <a href='#5'><li>VEGETARIAN</li></a>
+          <a href='#6'><li>PANEER</li></a>
+          <a href='#7'><li>CHICKEN</li></a>
+          <a href='#8'><li>MASHROMS</li></a>
+          <a href='#9'><li>FISH</li></a>
+          <a href='#10'><li>BIRIANI</li></a>
+          <a href='#11'><li>BREAD</li></a>
+          <a href='#12'><li>SEA FOOD</li></a>
+          <a href='#13'><li>DESERTS</li></a>
+          <a href='#14'><li>LUMB</li></a>
+          <a href='#15'><li>RYŻ</li></a>
+          <a href='#16'><li>SALATES</li></a>
+          <a href='#17'><li>RAITA</li></a>
+          <a href='#18'><li>DRINKS</li></a>
+        </ul>
         <div className='menu'>
           <div className='section'>
-            <h3>Przystawki</h3>
+            <h3 id='1'>Przystawki</h3>
             <button onClick={cena_zmiana} className="btn gray" value='6'>
-            PAPADUM 
+              PAPADUM 
             </button>
             <button onClick={cena_zmiana} className="btn gray" value='12'>
-            VEGETABLE SAMOSA
+              VEGETABLE SAMOSA
             </button>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
-            CHICKEN SAMOSA
+              CHICKEN SAMOSA
             </button>
             <button onClick={cena_zmiana} className="btn gray" value='20'>
-            CHICKEN TIKKA 
+              CHICKEN TIKKA 
             </button>
             <button onClick={cena_zmiana} className="btn gray" value='12'>
-            CUTLET 
+              CUTLET 
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='2'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -79,7 +98,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Soup</h3>
+            <h3 id='3'>Soup</h3>
             <button onClick={cena_zmiana} className="btn gray" value='14'>
             VEGETABLE SOUP 
             </button>
@@ -94,7 +113,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>TANDOORI SPECIALITIES</h3>
+            <h3 id='4'>TANDOORI SPECIALITIES</h3>
             <button onClick={cena_zmiana} className="btn gray" value='30'>
             TANDOORI CHICKEN 
             </button>
@@ -121,7 +140,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>DANIA WEGETARIAŃSKIE</h3>
+            <h3 id='5'>DANIA WEGETARIAŃSKIE</h3>
             <button onClick={cena_zmiana} className="btn gray" value='27'>
             MIX VEGETABLE CURRY
             </button>
@@ -169,7 +188,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='6'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -190,7 +209,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='7'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -211,7 +230,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='8'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -232,7 +251,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='9'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -253,7 +272,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='10'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -274,7 +293,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='11'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -295,7 +314,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='12'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -316,7 +335,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='13'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -337,7 +356,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='14'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -358,7 +377,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='15'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -379,7 +398,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='16'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -400,7 +419,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='17'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
@@ -421,7 +440,7 @@ class Zam extends React.Component{
             </button>
           </div>
           <div className='section'>
-            <h3>Pokora</h3>
+            <h3 id='18'>Pokora</h3>
             <button onClick={cena_zmiana} className="btn gray" value='15'>
             ONION BHAJI PAKORA
             </button>
